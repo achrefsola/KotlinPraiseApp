@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gradien_toolbar"
+    android:elevation="8dp"
+    android:id="@+id/toolbar"
+    android:theme="@style/CardView.Dark">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="@string/tool_bar_text"
+    android:textSize="30sp"
+    android:textAlignment="center"
+    android:textColor="@color/black"
+    android:fontFamily="@font/font1"/>
+
+
+
+
+
+</androidx.appcompat.widget.Toolbar>
+
+
+
+

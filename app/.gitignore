@@ -1,0 +1,31 @@
+# Ignore build output directories
+/build/
+out/
+
+# Ignore IDE settings (IntelliJ IDEA)
+.idea/
+*.iml
+
+# Ignore Gradle wrapper and Gradle caches
+.gradle/
+**/build/
+
+# Ignore log files and system files
+*.log
+.DS_Store
+Thumbs.db
+
+# Ignore Kotlin script files that might not be needed
+*.kts
+
+# Ignore OS-specific files and swap files
+*.swp
+*.swo
+
+# Ignore generated APKs and other Android-specific files (if Android)
+*.apk
+*.ap_
+captures/
+
+# Ignore local environment config
+local.properties

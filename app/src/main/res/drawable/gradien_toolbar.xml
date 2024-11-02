@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/button_background_selector.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Normal state -->
+    <item android:state_pressed="false">
+        <shape>
+            <gradient
+                android:startColor="#FFFEFE"
+                android:centerColor="#AD99CF"
+            android:endColor="#CECED3"
+            android:type="linear"
+            android:angle="45" />
+        </shape>
+    </item>
+
+    <!-- Pressed state -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#FF6347" /> <!-- Light Coral -->
+        </shape>
+    </item>
+
+</selector>
